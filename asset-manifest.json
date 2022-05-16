@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.32e733f9.css",
-    "main.js": "/Portfolio/static/js/main.9304e02a.js",
+    "main.js": "/Portfolio/static/js/main.01339734.js",
     "static/js/787.5c0b2d12.chunk.js": "/Portfolio/static/js/787.5c0b2d12.chunk.js",
     "static/media/ShoesStoreDemo.mp4": "/Portfolio/static/media/ShoesStoreDemo.08e52f1a4db179479f2e.mp4",
     "static/media/FacebookCloneDemo.mp4": "/Portfolio/static/media/FacebookCloneDemo.fab434f78fa4fa1b54a3.mp4",
@@ -9,20 +9,13 @@
     "static/media/MusicPlayerThumb.png": "/Portfolio/static/media/MusicPlayerThumb.4c19adac51f2c7734ad3.png",
     "static/media/ShoesStoreThumb.png": "/Portfolio/static/media/ShoesStoreThumb.bcb952efc4a6be52a10f.png",
     "static/media/FacebookCloneThumb.png": "/Portfolio/static/media/FacebookCloneThumb.9a5e68cf3ef28a11e90f.png",
-    "static/media/Skills.svg": "/Portfolio/static/media/Skills.fad26ce698befcedc50e8a49440ba42d.svg",
-    "static/media/Instagram.svg": "/Portfolio/static/media/Instagram.b133e565e26031a4181b82e6a67d7c65.svg",
-    "static/media/Projects.svg": "/Portfolio/static/media/Projects.a35693600fe10b8b68c4c4f5b21eac7c.svg",
-    "static/media/Home.svg": "/Portfolio/static/media/Home.2fa4c7041c160e61197cb72431876215.svg",
-    "static/media/Facebook.svg": "/Portfolio/static/media/Facebook.145b70d3ebc4c999f7ddfbb7449fa5f9.svg",
     "index.html": "/Portfolio/index.html",
-    "static/media/About.svg": "/Portfolio/static/media/About.48e67e5df092a074dd2bb4e34af69f16.svg",
-    "static/media/Contact.svg": "/Portfolio/static/media/Contact.496c1a2a5923275681307fba8ba19c67.svg",
     "main.32e733f9.css.map": "/Portfolio/static/css/main.32e733f9.css.map",
-    "main.9304e02a.js.map": "/Portfolio/static/js/main.9304e02a.js.map",
+    "main.01339734.js.map": "/Portfolio/static/js/main.01339734.js.map",
     "787.5c0b2d12.chunk.js.map": "/Portfolio/static/js/787.5c0b2d12.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.32e733f9.css",
-    "static/js/main.9304e02a.js"
+    "static/js/main.01339734.js"
   ]
 }
