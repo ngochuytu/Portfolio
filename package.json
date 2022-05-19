@@ -1,0 +1,52 @@
+{
+    "name": "portfolio",
+    "version": "0.1.0",
+    "homepage": "https://ngochuytu.github.io/Portfolio",
+    "private": true,
+    "dependencies": {
+        "@emailjs/browser": "^3.6.2",
+        "@testing-library/jest-dom": "^5.16.3",
+        "@testing-library/react": "^12.1.4",
+        "@testing-library/user-event": "^13.5.0",
+        "country-flag-icons": "^1.4.26",
+        "gh-pages": "^4.0.0",
+        "leaflet": "^1.7.1",
+        "moment-timezone": "^0.5.34",
+        "react": "^18.0.0",
+        "react-dom": "^18.0.0",
+        "react-icon-cloud": "^4.0.1",
+        "react-leaflet": "^3.2.5",
+        "react-reveal": "^1.2.2",
+        "react-scripts": "5.0.0",
+        "react-tsparticles": "^1.42.4",
+        "simple-icons": "^6.17.0",
+        "styled-components": "^5.3.5",
+        "typewriter-effect": "^2.18.2",
+        "web-vitals": "^2.1.4"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "set \"GENERATE_SOURCEMAP=false\" && react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject",
+        "deploy": "npm run build && gh-pages -d build"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}
