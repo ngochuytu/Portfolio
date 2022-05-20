@@ -1,5 +1,5 @@
 # My Portfolio
 
-## Github pages
+## Visit
 
-https://ngochuytu.github.io/Portfolio/
+https://tungochuy.com
