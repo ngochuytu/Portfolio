@@ -112,6 +112,7 @@ const FieldGroup = styled.div`
 `;
 
 const InputStyle = `
+    font-family: monospace;
     position: absolute;
     z-index: 1;
     font-size: 16px;
