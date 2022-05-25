@@ -9,14 +9,17 @@ const getCurrentTime = () => tz("Asia/Bangkok").format("hh:mm A");
 const multiLanguageContent = {
     en: {
         name: "Huy",
-        introduction: "I'm a Front-end Developer with a passion for learning new technologies and I love programming beautiful, user-friendly websites.",
+        introduction: "I'm a Front-end Developer with a passion for learning new technologies and a love for programming beautiful, user-friendly websites.",
         email: "tungochuy2001@gmail.com",
         emailTitle: "Email me",
         phone: "+84 818 264 017",
         phoneTitle: "Call me",
         job: "Front-end Developer",
         address: "Ha Noi, Viet Nam",
-        contact: "Get in touch",
+        contact: "Get to know me",
+        notificationMessages: {
+            copyEmailSuccess: "Email copied to clipboard",
+        }
     },
     vn: {
         name: "Huy",
@@ -28,6 +31,9 @@ const multiLanguageContent = {
         job: "Front-end Developer",
         address: "Hà Nội, Việt Nam",
         contact: "Liên hệ với mình",
+        notificationMessages: {
+            copyEmailSuccess: "Đã copy email",
+        }
     }
 };
 
@@ -35,7 +41,7 @@ function About() {
     const [_, setUpdateCurrentTime] = useState(false);
     const { settings: { language } } = useSettingsContext();
     const { newNotification } = useNotificationsContext();
-    const { name, introduction, email, emailTitle, phone, phoneTitle, job, address, contact } = multiLanguageContent[language];
+    const { name, introduction, email, emailTitle, phone, phoneTitle, job, address, contact, notificationMessages } = multiLanguageContent[language];
 
     const handleCopyIcon = () => {
         navigator.clipboard.writeText(email);
@@ -43,7 +49,7 @@ function About() {
         newNotification({
             id: "header-copy-email",
             type: "success",
-            message: "Email copied to clipboard",
+            message: notificationMessages.copyEmailSuccess,
             duration: 2000,
         });
     };

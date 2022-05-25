@@ -45,6 +45,12 @@ const multiLanguageContent = {
         subject: "Subject",
         message: "Message",
         send: "Send",
+        notificationMessages: {
+            emailSending: "Email is sending",
+            emailSent: "Email sent successfully",
+            emailSendingError: "Something went wrong! Please try again",
+            emailNextSend: time => `You can send another email in ${time} seconds`,
+        }
     },
     vn: {
         title: "Liên hệ",
@@ -53,6 +59,12 @@ const multiLanguageContent = {
         subject: "Chủ đề",
         message: "Nội dung",
         send: "Gửi",
+        notificationMessages: {
+            emailSending: "Đang gửi thư",
+            emailSent: "Thư đã được gửi",
+            emailSendingError: "Có lỗi xảy ra! Hãy thử lại",
+            emailNextSend: time => `Bạn có thể gửi lại sau ${time} giây`,
+        }
     }
 };
 
@@ -74,7 +86,7 @@ function Contact() {
     });
     const { newNotification, newOrUpdateNotification } = useNotificationsContext();
     const { settings: { language } } = useSettingsContext();
-    const { title, email, name, subject, message, send } = multiLanguageContent[language];
+    const { title, email, name, subject, message, send, notificationMessages } = multiLanguageContent[language];
 
     const formValidation = {
         email: email => {
@@ -124,7 +136,7 @@ function Contact() {
             newNotification({
                 id: "contact-email-sending",
                 type: "error",
-                message: "Email is sending",
+                message: notificationMessages.emailSending,
                 duration: 1000,
             });
             return;
@@ -157,7 +169,7 @@ function Contact() {
                         newNotification({
                             id: "contact-email-sent",
                             type: "success",
-                            message: "Message sent successfully",
+                            message: notificationMessages.emailSent,
                             duration: 2000,
                         });
 
@@ -183,9 +195,9 @@ function Contact() {
                         isSendingEmail.current = false;
 
                         newNotification({
-                            id: "contact-email-error",
+                            id: "contact-email-sending-error",
                             type: "error",
-                            message: "Something went wrong! Please try again",
+                            message: notificationMessages.emailSendingError,
                             duration: 2000,
                         });
                     });
@@ -194,7 +206,7 @@ function Contact() {
             newOrUpdateNotification({
                 id: "contact-email-next-send",
                 type: "error",
-                message: `You can send another email in ${nextEmailRef.current.delay} seconds`,
+                message: notificationMessages.emailNextSend(nextEmailRef.current.delay),
                 duration: 2000,
             });
         }
