@@ -4,7 +4,7 @@ import { devices } from "../../../Breakpoints/Breakpoints";
 const SkillsContainer = styled.div`
     display: flex;
     align-items: flex-start;
-    border-bottom: 1px solid var(--color-text-tertiary);
+    border-bottom: 5px solid var(--color-text-primary);
     padding: 50px 0;
 
     @media ${devices.tablet}{
