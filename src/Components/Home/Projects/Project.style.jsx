@@ -46,7 +46,6 @@ const Header = styled.h1`
 
 const ProjectTitle = styled.h2`
     font-size: 50px;
-    width: max-content;
     margin: 30px 0;
 
     &:focus-visible{
