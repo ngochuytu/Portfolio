@@ -3,6 +3,7 @@ import Hero from "../../Components/Home/Hero/Hero";
 import About from "../../Components/Home/About/About";
 import PageContainer from "../../Components/Home/PageContainer/PageContainer";
 import Projects from "../../Components/Home/Projects/Projects";
+import Experience from "../../Components/Home/Experience/Experience";
 import Skills from "../../Components/Home/Skills/Skills";
 import Contact from "../../Components/Home/Contact/Contact";
 import Footer from "../../Components/Home/Footer/Footer";
@@ -18,6 +19,7 @@ function Home() {
             <Hero />
             <PageContainer id="about" component={<About />} tagName="header" />
             <PageContainer id="projects" component={<Projects />} tagName="section" />
+            <PageContainer id="experience" component={<Experience />} tagName="section" />
             <PageContainer id="skills" component={<Skills />} tagName="section" />
             <PageContainer id="contact" component={<Contact />} tagName="section" />
             <Footer />
