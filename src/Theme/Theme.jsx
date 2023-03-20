@@ -31,6 +31,26 @@ export const GlobalStyle = createGlobalStyle`
         font-size: 16px;
     }
 
+    /* Firefox */
+    html {
+        scrollbar-width: auto;
+        background-color: rgb(0, 0, 0);
+    }
+
+    /* Chrome, Edge, and Safari */
+    html::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    html::-webkit-scrollbar-track {
+        background-color: rgb(0, 0, 0);
+    }
+
+    html::-webkit-scrollbar-thumb {
+        background-color: var(--color-accent);
+        border-radius: 10px;
+    }
+
     a{
         text-decoration: none;
         color: inherit;
