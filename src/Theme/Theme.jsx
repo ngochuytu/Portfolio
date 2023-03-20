@@ -1,12 +1,13 @@
-import { createGlobalStyle } from "styled-components";
+import {createGlobalStyle} from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
     :root{
         --padding-horizontal-page: 5%;
-        --background-color-primary: ${props => props.theme.backgroundColorPrimary};
-        --color-text-primary: ${props => props.theme.colorTextPrimary};
-        --color-text-secondary: ${props => props.theme.colorTextSecondary};
-        --color-text-tertiary: ${props => props.theme.colorTextTertiary};
+        --background-color-primary: ${(props) =>
+          props.theme.backgroundColorPrimary};
+        --color-text-primary: ${(props) => props.theme.colorTextPrimary};
+        --color-text-secondary: ${(props) => props.theme.colorTextSecondary};
+        --color-text-tertiary: ${(props) => props.theme.colorTextTertiary};
         --color-accent: #F07E74;
         --color-positive: #00b500;
         --color-negative: #fa1616;
@@ -52,20 +53,24 @@ export const GlobalStyle = createGlobalStyle`
     body{
         color: var(--color-text-primary);
     }
+
+    #root{
+        overflow-x: hidden;
+    }
 `;
 
 export const lightTheme = {
-    mode: "light",
-    backgroundColorPrimary: "#FFFFFF",
-    colorTextPrimary: "#000000",
-    colorTextSecondary: "#333333",
-    colorTextTertiary: "#6F6F6F",
+  mode: 'light',
+  backgroundColorPrimary: '#FFFFFF',
+  colorTextPrimary: '#000000',
+  colorTextSecondary: '#333333',
+  colorTextTertiary: '#6F6F6F',
 };
 
 export const darkTheme = {
-    mode: "dark",
-    backgroundColorPrimary: "#080808",
-    colorTextPrimary: "#FFFFFF",
-    colorTextSecondary: "#E0E0E0",
-    colorTextTertiary: "#9E9E9E",
+  mode: 'dark',
+  backgroundColorPrimary: '#080808',
+  colorTextPrimary: '#FFFFFF',
+  colorTextSecondary: '#E0E0E0',
+  colorTextTertiary: '#9E9E9E',
 };
