@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.1f182feb.css",
-    "main.js": "/static/js/main.955ea3d2.js",
-    "static/js/108.1df154f4.chunk.js": "/static/js/108.1df154f4.chunk.js",
-    "static/media/ShoesStoreDemo.mp4": "/static/media/ShoesStoreDemo.08e52f1a4db179479f2e.mp4",
-    "static/media/FacebookCloneDemo.mp4": "/static/media/FacebookCloneDemo.fab434f78fa4fa1b54a3.mp4",
-    "static/media/MusicPlayerDemo.mp4": "/static/media/MusicPlayerDemo.d4544f73678d384d4768.mp4",
-    "static/media/MusicPlayerThumb.png": "/static/media/MusicPlayerThumb.4c19adac51f2c7734ad3.png",
-    "static/media/ShoesStoreThumb.png": "/static/media/ShoesStoreThumb.bcb952efc4a6be52a10f.png",
-    "static/media/FacebookCloneThumb.png": "/static/media/FacebookCloneThumb.9a5e68cf3ef28a11e90f.png",
-    "index.html": "/index.html"
+    "main.css": "/Portfolio/static/css/main.1f182feb.css",
+    "main.js": "/Portfolio/static/js/main.3e1d3cba.js",
+    "static/js/108.1df154f4.chunk.js": "/Portfolio/static/js/108.1df154f4.chunk.js",
+    "static/media/ShoesStoreDemo.mp4": "/Portfolio/static/media/ShoesStoreDemo.08e52f1a4db179479f2e.mp4",
+    "static/media/FacebookCloneDemo.mp4": "/Portfolio/static/media/FacebookCloneDemo.fab434f78fa4fa1b54a3.mp4",
+    "static/media/MusicPlayerDemo.mp4": "/Portfolio/static/media/MusicPlayerDemo.d4544f73678d384d4768.mp4",
+    "static/media/MusicPlayerThumb.png": "/Portfolio/static/media/MusicPlayerThumb.4c19adac51f2c7734ad3.png",
+    "static/media/ShoesStoreThumb.png": "/Portfolio/static/media/ShoesStoreThumb.bcb952efc4a6be52a10f.png",
+    "static/media/FacebookCloneThumb.png": "/Portfolio/static/media/FacebookCloneThumb.9a5e68cf3ef28a11e90f.png",
+    "index.html": "/Portfolio/index.html"
   },
   "entrypoints": [
     "static/css/main.1f182feb.css",
-    "static/js/main.955ea3d2.js"
+    "static/js/main.3e1d3cba.js"
   ]
 }
