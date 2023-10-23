@@ -18,7 +18,7 @@ const multiLanguageContent = {
         description:
           "Building Facebook Application using ReactJS and Firebase, this build recreated the basic functionality (sign up, log in, CRUD posts, real-time notifications, …) of the original Facebook.",
         demoLinkTitle: "Visit website",
-        demoLink: "https://facebook-8e6fc.web.app/",
+        demoLink: "https://facebook-clone-source.vercel.app/",
         githubLinkTitle: "Github",
         githubLink: "https://github.com/ngochuytu/facebook-clone-source",
         demoVideo: FacebookCloneDemoVideo,
@@ -30,7 +30,7 @@ const multiLanguageContent = {
         description:
           "An online shoe store E-commerce using Asp.net WebForm. Functionalities include: Sign up, log in, adding product to cart, searching for products",
         demoLinkTitle: "Visit website",
-        demoLink: "http://bangiay.somee.com/",
+        demoLink: "http://shoe-store.somee.com/",
         githubLinkTitle: "Github",
         githubLink: "https://github.com/ngochuytu/bangiay",
         demoVideo: ShoesStoreDemoVideo,
