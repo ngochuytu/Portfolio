@@ -30,7 +30,7 @@ const multiLanguageContent = {
   en: {
     infoItemOne: {
       position: "Developer",
-      time: "08.2022 - Present",
+      time: "08.2022 - 01.2024",
     },
     infoItemTwo: {
       position: "Intern",
@@ -44,7 +44,7 @@ const multiLanguageContent = {
   vn: {
     infoItemOne: {
       position: "Lập trình viên",
-      time: "08.2022 - Hiện tại",
+      time: "08.2022 - 01.2024",
     },
     infoItemTwo: {
       position: "Thực tập sinh",
