@@ -3,6 +3,7 @@ import { useSettingsContext } from "../../../Contexts/SettingsContext";
 import { AboutContainer, AboutTitle, Job, AboutContent, ContentLeft, Introduction, ContactList, ContactItem, ContactLink, ContentRight, ContentRightText, ContentRightList, ContentRightListItem, ContentRightLink } from "./About.style";
 import { useNotificationsContext } from "../../../Contexts/NotificationsContext";
 import { tz } from "moment-timezone";
+import cvPdf from "../../../Assets/Documents/Home/Header/CV_TuNgocHuy.pdf";
 
 const getCurrentTime = () => tz("Asia/Bangkok").format("hh:mm A");
 
@@ -95,8 +96,8 @@ function About() {
                     <ContentRightText>{address} {getCurrentTime()}</ContentRightText>
                     <ContentRightText>{contact}</ContentRightText>
                     <ContentRightList>
-                        <ContentRightListItem tabIndex={0}><ContentRightLink href="https://github.com/ngochuytu" target="_blank" tabindex="0">Github</ContentRightLink></ContentRightListItem>
-                        <ContentRightListItem tabIndex={0}><ContentRightLink href="../../../Assets/Documents/Home/Header/CV_TuNgocHuy.pdf" download={true} tabindex="0">Download CV</ContentRightLink></ContentRightListItem>
+                        <ContentRightListItem tabIndex={0}><ContentRightLink href="https://github.com/ngochuytu" target="_blank" tabIndex="0">Github</ContentRightLink></ContentRightListItem>
+                        <ContentRightListItem tabIndex={0}><ContentRightLink href={cvPdf} download={true} tabIndex="0">Download CV</ContentRightLink></ContentRightListItem>
                     </ContentRightList>
                 </ContentRight>
             </AboutContent>
